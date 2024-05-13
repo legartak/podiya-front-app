@@ -1,0 +1,11 @@
+.TagContainer {
+  font-family: "Montserrat";
+  font-size: 16px;
+  color: white;
+
+  padding: 7px 10px;
+
+  background-color: #8970d1;
+
+  border-radius: 8px;
+}

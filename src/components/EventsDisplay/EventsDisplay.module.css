@@ -1,0 +1,34 @@
+.UpperPart {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+
+  font-family: "Montserrat", sans-serif;
+}
+
+.EventsTitle {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.WatchAll {
+  font-size: 20px;
+
+  cursor: pointer;
+}
+
+.Items {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.Display {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+}

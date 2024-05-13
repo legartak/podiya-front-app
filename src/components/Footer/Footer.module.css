@@ -1,0 +1,11 @@
+.Footer {
+  font-family: "Montserrat", sans-serif;
+  font-size: 24px;
+  height: 96px;
+  padding: 0 66px;
+
+  background-color: #c6aed9;
+
+  display: flex;
+  align-items: center;
+}

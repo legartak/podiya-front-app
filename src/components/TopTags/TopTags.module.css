@@ -1,0 +1,22 @@
+.TagsBlock {
+  display: flex;
+  flex-direction: column;
+
+  font-family: "Montserrat", sans-serif;
+
+  gap: 16px;
+
+  width: 1308px;
+}
+
+.Title {
+  font-weight: bold;
+  font-size: 28px;
+}
+
+.TagsRow {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}

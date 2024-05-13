@@ -1,0 +1,64 @@
+.LoginSection {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  gap: 24px;
+
+  font-family: "Montserrat", sans-serif;
+
+  padding: 32px 0;
+
+  min-height: calc(100vh - 192px);
+}
+
+.PageTitle {
+  font-weight: bold;
+  font-size: 32px;
+}
+
+input {
+  border: none;
+  background-color: rgba(217, 217, 217, 0.8);
+
+  width: 335px;
+  height: 45px;
+  border-radius: 20px;
+  padding-left: 16px;
+  padding-right: 16px;
+
+  font-size: 16px;
+}
+
+.ResetPassword {
+  color: #a581ca;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.RegisterOffer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Register {
+  color: #a581ca;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.SubmitButton {
+  font-size: 20px;
+  font-weight: 500;
+  color: white;
+
+  border-radius: 40px;
+  background-color: #c6aed9;
+  border: none;
+
+  cursor: pointer;
+
+  width: 335px;
+  height: 52px;
+}
