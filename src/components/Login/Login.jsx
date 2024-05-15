@@ -5,7 +5,7 @@ import LoginSection from "./LoginSection/LoginSection.jsx";
 export default function Login() {
   return (
     <>
-      <Header />
+      <Header isUserNeeded={false} />
       <LoginSection />
       <Footer />
     </>

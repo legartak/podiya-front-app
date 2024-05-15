@@ -11,7 +11,7 @@ export default function MainPage() {
       <Header />
       <div className={styles.MainPageSection}>
         <EventsDisplay title="На цьому тижні" />
-        <EventsDisplay title="Каталог" />
+        <EventsDisplay title="Каталог" whereTo="/catalog/all/" />
         <TopTags />
       </div>
       <Footer />

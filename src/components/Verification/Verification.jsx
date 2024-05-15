@@ -5,7 +5,7 @@ import VerificationSection from "./VerificationSection/VerificationSection.jsx";
 export default function Login() {
   return (
     <>
-      <Header />
+      <Header isUserNeeded={false} />
       <VerificationSection />
       <Footer />
     </>

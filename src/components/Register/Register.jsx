@@ -5,7 +5,7 @@ import RegisterSection from "./RegisterSection/RegisterSection.jsx";
 export default function Register() {
   return (
     <>
-      <Header />
+      <Header isUserNeeded={false} />
       <RegisterSection />
       <Footer />
     </>

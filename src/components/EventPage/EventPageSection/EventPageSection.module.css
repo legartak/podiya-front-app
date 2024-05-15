@@ -1,0 +1,77 @@
+.EventPageSection {
+  display: grid;
+  grid-template-columns: 1308px;
+  grid-auto-rows: max-content;
+  justify-content: center;
+  gap: 24px;
+
+  padding: 32px 0;
+  min-height: calc(100vh - 192px);
+}
+
+.MainPart {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: center;
+}
+
+.EventPoster {
+  width: 334px;
+  height: 183px;
+
+  border-radius: 8px;
+}
+
+.NameSection {
+  font-family: "Montserrat", sans-serif;
+  flex: 1;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.EventTitle {
+  font-weight: bold;
+  font-size: 32px;
+}
+
+.Price {
+  color: white;
+  font-weight: 20px;
+  font-family: "Montserrat", sans-serif;
+  padding: 8px;
+  background-color: #676767;
+  border-radius: 8px;
+}
+
+.NameSection {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.DateAndPlace {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+}
+
+.AboutEvent {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+
+  font-family: "Montserraat", sans-serif;
+}
+
+.Title {
+  font-size: 18px;
+  font-weight: bolder;
+}
+
+.Description {
+  color: #fff;
+  padding: 25px;
+  border-radius: 8px;
+  background-color: rgba(103, 103, 103, 0.6);
+}

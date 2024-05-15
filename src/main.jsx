@@ -8,6 +8,8 @@ import Register from "./components/Register/Register";
 import Login from "./components/Login/Login";
 import Verification from "./components/Verification/Verification";
 import MainPage from "./components/MainPage/MainPage";
+import AllEvents from "./components/AllEvents/AllEvents";
+import EventPage from "./components/EventPage/EventPage";
 
 const router = createBrowserRouter([
   {
@@ -18,14 +20,26 @@ const router = createBrowserRouter([
   {
     path: "/register",
     element: <Register />,
+    errorElement: <ErrorPage />,
   },
   {
     path: "/login",
     element: <Login />,
+    errorElement: <ErrorPage />,
   },
   {
     path: "/verify",
     element: <Verification />,
+    errorElement: <ErrorPage />,
+  },
+  {
+    path: "/catalog/all",
+    element: <AllEvents />,
+    errorElement: <ErrorPage />,
+  },
+  {
+    path: "/catalog/event/:id",
+    element: <EventPage />,
   },
 ]);
 
